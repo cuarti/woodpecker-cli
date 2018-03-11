@@ -8,6 +8,10 @@
     "cli"
   ],
   "license": "MIT",
+  "bin": {
+    "woodpecker": "bin/wpk",
+    "wpk": "bin/wpk"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -26,7 +30,9 @@
   "bugs": {
     "url": "https://github.com/cuarti/woodpecker-cli/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@woodpecker/core": "file:../core"
+  },
   "devDependencies": {
     "@types/node": "^9.4.6",
     "tslint": "^5.9.1",
