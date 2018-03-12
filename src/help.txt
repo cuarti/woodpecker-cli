@@ -1,0 +1,9 @@
+Usage: woodpecker [options] [arguments]
+       wpk [options] [arguments]
+
+Options:
+  -e, --exists		Check if cli exists
+  -l, --list		List all clis
+  -p, --paths		Show node_modules paths
+  -h, --help		Show Woodpecker help
+  -v, --version		Show Woodpecker version
